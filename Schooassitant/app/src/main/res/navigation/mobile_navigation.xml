@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/main_xianzhi">
+
+    <fragment
+        android:id="@+id/main_xianzhi"
+        android:name="com.example.schooassitant.fragment.fragment_main"
+        android:label="xianzhi"
+        tools:layout="@layout/fragment_main" />
+
+    <fragment
+        android:id="@+id/main_zudui"
+        android:name="com.example.schooassitant.fragment.fragment_zudui"
+        android:label="zudui"
+        tools:layout="@layout/zudui" />
+
+
+    <fragment
+        android:id="@+id/main_xiaoxi"
+        android:name="com.example.schooassitant.fragment.fragment_xiaoxi"
+        android:label="xiaoxi"
+
+        tools:layout="@layout/xiaoxi_item" />
+
+
+    <fragment
+        android:id="@+id/main_user"
+        android:name="com.example.schooassitant.fragment.fragment_wode"
+        android:label="my_info"
+        tools:layout="@layout/my_info" />
+    <fragment
+        android:id="@+id/main_fabu"
+        android:name="com.example.schooassitant.fragment.fragment_post"
+        android:label="my_info"
+        tools:layout="@layout/activity_post" />
+
+
+</navigation>

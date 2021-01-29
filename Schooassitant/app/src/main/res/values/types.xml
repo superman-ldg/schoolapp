@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="spinnername">
+        <item>请选择物品类型</item>
+        <item>书本</item>
+        <item>手机</item>
+        <item>服装</item>
+        <item>数码</item>
+        <item>其它</item>
+    </string-array>
+</resources>

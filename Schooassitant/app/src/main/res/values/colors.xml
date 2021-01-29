@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="red">#fff50000</color>
+    <color name="green">#ff1ce925</color>
+    <color name="black_25">#40000000</color>
+    <color name="black_50">#80000000</color>
+    <color name="tab_txt_bg_s">#41E3B8</color>
+    <color name="tab_txt_bg_n">#333333</color>
+    <color name="setbg">#dadada</color>
+    <color name="line">#e5e5e5</color>
+    <color name="line1">#FF5001</color>
+    <color name="text_main1">#838895</color>
+    <color name="text_black">#4E5157</color>
+    <color name="colo_money">#ff4757</color>
+    <color name="color_link">#f0f0f0</color>
+    <color name="black_overlay">#999</color>
+    <color name="colo_bac">#f8f8f8</color>
+    <color name="colo_blue">#2196F3</color>
+    <color name="colo_white">#fff</color>
+    <color name="colo_yellow">#FEC62E</color>
+    <color name="colo_red">#E53935</color>
+    <color name="text_main">#49496a</color>
+    <color name="background_white">#ffffff</color>
+    <color name="background_titlebar">#F5F5F5</color>
+    <color name="background_bg">#F5F5F5</color>
+    <color name="background_huise">#F4F4F4</color>
+    <color name="tab_line">#00E5B1</color>
+    <color name="titlebar_line">#00DFAD</color>
+    <color name="titlebar_txt">#333333</color>
+    <color name="yellow">#ffda68</color>
+    <color name="sex_pink">#FFFFB0BA</color>
+    <color name="sex_green">#00E5B1</color>
+    <color name="list_item_divider">#e5e5e5</color>
+    <!--主色调（按钮背景、链接字色、线条等）-->
+    <color name="main_color">#48be7c</color>
+</resources>

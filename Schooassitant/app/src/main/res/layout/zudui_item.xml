@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colo_bac"
+    >
+
+
+    <RelativeLayout
+
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@drawable/shape_white"
+        android:orientation="vertical"
+        android:padding="10dp"
+        app:layout_constraintVertical_bias="0.0"
+        tools:layout_editor_absoluteX="-38dp"
+        tools:ignore="MissingConstraints">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/relativeLayout15"
+          android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="10dp"
+            >
+
+            <ImageView
+                android:id="@+id/p_info_userimg"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="10dp"
+                />
+
+            <TextView
+                android:id="@+id/p_info_username"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/p_info_userimg"
+                android:layout_marginLeft="10dp"
+                android:layout_toEndOf="@+id/p_info_userimg"
+                android:layout_toRightOf="@+id/p_info_userimg"
+
+                android:textColor="#000000"
+                />
+
+            <TextView
+                android:id="@+id/p_info_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/p_info_userimg"
+                android:layout_alignLeft="@+id/p_info_username"
+                android:layout_alignStart="@+id/p_info_username"
+                 />
+            <TextView
+                android:id="@+id/zuduititle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+              android:layout_below="@id/p_info_userimg"
+                android:layout_alignLeft="@+id/p_info_userimg"
+                android:textSize="20sp"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/black"
+                ></TextView>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
+
+
+</RelativeLayout>
